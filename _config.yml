@@ -2,7 +2,7 @@
 title: Stereo Semantics
 email: your-email@domain.com
 description: Description to come
-baseurl: ""
+baseurl: "/blahblah"
 url: "http://stereosemantics.com"
 
 # Build settings
