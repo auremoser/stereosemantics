@@ -1,8 +1,0 @@
----
-layout: season02
-title:  "Game of PWNS"
-date:   2013-02-03
-categories: season02
----
-
-For lack of call-ins last season, this episode prefabs some robodials to guide this playlist with a little UGC, passing from themes of computerized <3 to paralysis to phone talking. The overwhelming arc of this game of phones relates to some cool telephone tech inching toward obsolescence. Tune in to find out the source of my phone-tic hang-ups bridging some epic 7os pop with some voicemail messaging. Special thanks to the Operator, for his coding brilliance, and random calls :).

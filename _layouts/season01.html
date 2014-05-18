@@ -1,17 +1,55 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="{{ "/css/season01.css" | prepend: site.baseurl }}">
+
+<!-- 
+<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+<nav class="site-nav">
+    {% for page in site.pages %}
+      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+    {% endfor %}
+</nav>
+-->
+
+
+<div class="container">
+<div class="row">
+
+<a href="{{ site.baseurl }}/">
+<h1>
+<font color="ff00ff">S</font><font color="ff00cc">t</font><font color="ff0099">e</font><font color="ff0066">r</font><font color="ff0033">e</font><font color="ff0000">o</font> <font color="ff3300">S</font><font color="ff6600">e</font><font color="ff9900">m</font><font color="ffcc00">a</font><font color="ffff00">n</font><font color="ccff00">t</font><font color="99ff00">i</font><font color="66ff00">c</font><font color="33ff00">s</font>
+- <blink>Season One</blink>
+</h1>
+</a>
+
+<p>Fall 2012</p>
+
+<p>Listen here <a href="http://radio.pratt.edu">http://radio.pratt.edu</a> <img src="img/hot.gif"></p>
+
+<p>Call in here <tel>(718) 636-3436</tel></p>
+
+<p>When: Sundays, 9-10pm EST</p>
+
+<img src="img/construction.gif">
+
+<br>
+
 <div class="post">
 
-  <h2>Season ONE</h2>
-
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
+  <div class="title">
+  	<a href="audio/s01-e03.mp3">
+  		<span class="ep-num">Episode {{ page.episode }}</span>
+	    <h1>{{ page.title }}</h1>
+  	</a>
+  </div>
+
   <article class="post-content">
-  {{ content }}
+	{{ content }}
+	<p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
   </article>
 
 </div>
