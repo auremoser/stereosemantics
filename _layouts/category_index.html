@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<h1>index</h1>
+
+{{ site.category }}
+
+{% for category in site.categories %}
+	<a href="{% category_url category.first %}">{{ category.first }}</a>
+{% endfor %}

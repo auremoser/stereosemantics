@@ -10,4 +10,9 @@
 	<link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
     {{ content }}
+
+    {% for category in site.categories %}
+      <a href="{% category_url category.first %}">{{ category.first }}</a>
+    {% endfor %}
+
 </html>
