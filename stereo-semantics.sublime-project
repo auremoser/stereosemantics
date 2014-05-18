@@ -1,0 +1,8 @@
+{
+    "folders": [
+        {
+			"path": "/Users/aurelia/Code/2014/blahblah",
+            "folder_exclude_patterns": ["_site"]
+        }
+    ]
+}

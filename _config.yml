@@ -1,7 +1,7 @@
 # Site settings
 title: Stereo Semantics
-email: your-email@domain.com
-description: Description to come
+email: webmaster@stereosemantics.com
+description: We put the rad in radio!
 baseurl: "/blahblah"
 url: "http://stereosemantics.com"
 timezone: America/New_York

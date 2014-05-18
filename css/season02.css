@@ -1,0 +1,68 @@
+@-webkit-keyframes turntable {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+}
+
+@-moz-keyframes turntable {
+	0% { -moz-transform: rotate(0deg); }
+	100% { -moz-transform: rotate(360deg); }
+}
+
+body {
+	background: #333;
+	color: #fff;
+}
+
+.record-spinners {
+	overflow: auto;
+}
+
+.record-spinner {
+	margin: 32px;
+	background: url(../img/s02/record.jpg);
+	background-size: cover;
+	width: 256px;
+	height: 256px;
+	position: relative;
+	float: left;
+	border-radius: 50%;
+}
+
+.record-spinner .title {
+	width: 36%;
+	height: 36%;
+	margin-top: -18%;
+	margin-left: -18%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	background: url(../img/s02/rcav.jpg);
+	background-size: cover;
+	overflow: hidden;
+	/*border: 4px solid #fc0;*/
+	border-radius: 50%;
+
+	-webkit-animation-name: turntable;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+
+	-moz-animation-name: turntable;
+	-moz-animation-duration: 6s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+}
+
+.record-spinner *:not(.title) {
+	display: none;
+}
+
+.record-spinner p {
+	background: rgba(0,0,0,0.5);
+}
+
+.record-spinner.selected .title {
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+}

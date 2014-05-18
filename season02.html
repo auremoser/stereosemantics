@@ -1,0 +1,12 @@
+---
+layout: season02
+---
+
+{% for post in site.categories.season02 %}
+	<a class="record-spinner" href="{{ post.url }}">
+		<div class="title">
+			{{ post.title }}
+		</div>
+	</a>
+{% endfor %}
+

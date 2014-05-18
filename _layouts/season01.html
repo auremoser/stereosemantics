@@ -3,7 +3,7 @@ layout: default
 ---
 <link rel="stylesheet" href="{{ "/css/season01.css" | prepend: site.baseurl }}">
 
-<!-- 
+<!--
 <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
 <nav class="site-nav">
@@ -14,8 +14,8 @@ layout: default
 -->
 
 
-<div class="container">
-<div class="row">
+<div class="container-fluid">
+<div class="row-fluid">
 
 <a href="{{ site.baseurl }}/">
 <h1>
@@ -26,13 +26,13 @@ layout: default
 
 <p>Fall 2012</p>
 
-<p>Listen here <a href="http://radio.pratt.edu">http://radio.pratt.edu</a> <img src="img/hot.gif"></p>
+<p>Listen here <a href="http://radio.pratt.edu">http://radio.pratt.edu</a> <img src="{{ site.baseurl }}/img/s01/hot.gif"></p>
 
 <p>Call in here <tel>(718) 636-3436</tel></p>
 
 <p>When: Sundays, 9-10pm EST</p>
 
-<img src="img/construction.gif">
+<img src="{{ site.baseurl }}/img/s01/construction.gif">
 
 <br>
 
@@ -41,15 +41,15 @@ layout: default
   </header>
 
   <div class="title">
-  	<a href="audio/s01-e03.mp3">
   		<span class="ep-num">Episode {{ page.episode }}</span>
 	    <h1>{{ page.title }}</h1>
-  	</a>
   </div>
 
   <article class="post-content">
 	{{ content }}
 	<p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
   </article>
+
+  <img src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode }}.png">
 
 </div>
