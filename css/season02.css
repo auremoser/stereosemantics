@@ -66,3 +66,11 @@ body {
 	-webkit-animation-play-state: paused;
 	-moz-animation-play-state: paused;
 }
+.rel-finder {
+	display: block;
+	font-family: monospace;
+}
+.tracklist {
+	display: block;
+	font-family: monospace;
+}
