@@ -2,7 +2,7 @@
 layout: default
 ---
 <link rel="stylesheet" href="{{ "/css/season01.css" | prepend: site.baseurl }}">
-
+<link rel="shortcut-icon" href="{{ site.baseurl }}/favicon.ico">
 <!--
 <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
@@ -13,43 +13,51 @@ layout: default
 </nav>
 -->
 
-
 <div class="container-fluid">
-<div class="row-fluid">
+  <div class="row-fluid">
 
-<a href="{{ site.baseurl }}/">
-<h1>
-<font color="ff00ff">S</font><font color="ff00cc">t</font><font color="ff0099">e</font><font color="ff0066">r</font><font color="ff0033">e</font><font color="ff0000">o</font> <font color="ff3300">S</font><font color="ff6600">e</font><font color="ff9900">m</font><font color="ffcc00">a</font><font color="ffff00">n</font><font color="ccff00">t</font><font color="99ff00">i</font><font color="66ff00">c</font><font color="33ff00">s</font>
-- <blink>Season One</blink>
-</h1>
-</a>
+    <a href="{{ site.baseurl }}/">
+      <h1>
+        <font color="ff00ff">S</font><font color="ff00cc">t</font><font color="ff0099">e</font><font color="ff0066">r</font><font color="ff0033">e</font><font color="ff0000">o</font> <font color="ff3300">S</font><font color="ff6600">e</font><font color="ff9900">m</font><font color="ffcc00">a</font><font color="ffff00">n</font><font color="ccff00">t</font><font color="99ff00">i</font><font color="66ff00">c</font><font color="33ff00">s</font>
+-       <blink>Season One</blink>
+      </h1>
+    </a>
 
-<p>Fall 2012</p>
+    <p>Fall 2012</p>
 
-<p>Listen here <a href="http://radio.pratt.edu">http://radio.pratt.edu</a> <img src="{{ site.baseurl }}/img/s01/hot.gif"></p>
+    <p>Listen here <a href="http://radio.pratt.edu">http://radio.pratt.edu</a> <img src="{{ site.baseurl }}/img/s01/hot.gif"></p>
 
-<p>Call in here <tel>(718) 636-3436</tel></p>
+    <p>Call in here <tel>(718) 636-3436</tel></p>
 
-<p>When: Sundays, 9-10pm EST</p>
+    <p>When: Sundays, 9-10pm EST</p>
 
-<img src="{{ site.baseurl }}/img/s01/construction.gif">
+    <img src="{{ site.baseurl }}/img/s01/construction.gif">
 
-<br>
+    <br>
 
-<div class="post">
+    <div class="episode-detail">
+      <div class="title">
+        <h1>{{ page.title }}</h1>
+        {% if page.episode %}
+        <span class="ep-num">Episode {{ page.episode }}</span>
+        {% endif %}
+      </div>
 
-  </header>
+      {{ content }}
 
-  <div class="title">
-  		<span class="ep-num">Episode {{ page.episode }}</span>
-	    <h1>{{ page.title }}</h1>
+      {% if page.episode %}
+      <p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+      <a href="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' | reverse | truncate: 2 | reverse }}.png">
+        <img class="rel-finder-map" src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' | reverse | truncate: 2 | reverse   }}.png">
+      </a>
+      {% endif %}
+    </div>
+
+    <br>
+
+    <img src="{{ site/baseurl }}/img/s01/counter2.gif">
+    <img src="{{ site/baseurl }}/img/s01/noframes.gif">
+    <img src="{{ site/baseurl }}/img/s01/netscape.gif">
   </div>
-
-  <article class="post-content">
-	{{ content }}
-	<p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-  </article>
-
-  <img src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode }}.png">
-
 </div>
+
