@@ -1,0 +1,760 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"except"
+			],
+			[
+				"trust",
+				"trust"
+			],
+			[
+				"posts",
+				"posts"
+			],
+			[
+				"fil",
+				"filteredData"
+			],
+			[
+				"REND",
+				"rendered"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"pu",
+				"pullDataset"
+			],
+			[
+				"mil",
+				"milestone"
+			],
+			[
+				"button",
+				"button-block"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"gant",
+				"ganttBarContainer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "_layouts/season02.html",
+			"settings":
+			{
+				"buffer_size": 942,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/season03.html",
+			"settings":
+			{
+				"buffer_size": 929,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/season01.html",
+			"settings":
+			{
+				"buffer_size": 2196,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/season03.css",
+			"settings":
+			{
+				"buffer_size": 35,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/season02.css",
+			"settings":
+			{
+				"buffer_size": 1411,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 67.0,
+		"selected_items":
+		[
+			[
+				"package inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packagein",
+				"Package Control: Install Package"
+			],
+			[
+				"prett",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"swa",
+				"Convert Case: Swap Case"
+			],
+			[
+				"",
+				"Convert Case: Upper Case"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-08-11-feeling.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-08-04-ahead.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-07-28-deserter.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-07-21-break.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-07-14-stereofixity.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-07-07-seaside.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-06-16-heros.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-06-30-heat.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-06-09-timbank.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-06-23-sunbright.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-06-02-afraid-of-summer.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-03-10-daylight.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-03-17-luck.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-03-24-prettyOK.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-03-31-meme-ory.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-04-07-undone.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-04-17-sleep.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-04-21-years.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-02-24-go-do.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-03-03-electricity.html",
+		"/Users/aurelia/Code/2014/blahblah/css/season02.css",
+		"/Users/aurelia/Code/2014/blahblah/_layouts/season02.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-02-03-game-of-pwns.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-02-17-love.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2013-02-10-arms.html",
+		"/Users/aurelia/Code/2014/blahblah/index.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-11-25-ch-ch-ch-changes-2.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-12-02-something-to-talk-about.html",
+		"/Users/aurelia/Code/2014/blahblah/_layouts/season01.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-11-04-are-you-alive.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-10-21-heaven-cant-wait.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-11-11-sex-s-x-s\\x.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-11-18-alrighty-then-and-now-1.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-10-28-countdown.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-09-23-opening-close-stereo-seas-of-rhye.html",
+		"/Users/aurelia/Code/2014/blahblah/css/season01.css",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-10-07-running.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-10-14-ee-cummings-hbd.html",
+		"/Users/aurelia/Code/2014/blahblah/_posts/2012-09-30-moon-magic.html",
+		"/Users/aurelia/Code/2014/blahblah/_layouts/season03.html",
+		"/Users/aurelia/Code/2014/blahblah/_layouts/default.html",
+		"/Users/aurelia/Desktop/HIV_30/1980s-corrected-json/test/out2.txt",
+		"/Users/aurelia/Desktop/HIV_30/1980s-corrected-json/test/out.txt",
+		"/Users/aurelia/Code/2013/hiv-30/Timeline/libs/jquery-2.1.0.min.js",
+		"/Users/aurelia/Code/2013/hiv-30/Timeline/notes/notes.md",
+		"/Users/aurelia/Code/2013/hiv-30/Sentiment_Analysis/notes/notes.md",
+		"/Users/aurelia/Code/2013/hiv-30/Map/notes/notes.md",
+		"/Users/aurelia/Code/2013/ifes/.git/MERGE_MSG",
+		"/Users/aurelia/Code/2013/ifes/js/regions.js",
+		"/Users/aurelia/Desktop/Plane/fizzbuzz.js",
+		"/Users/aurelia/Code/2013/ifes/data/data-regions.csv",
+		"/Users/aurelia/Code/2013/pirateplotr/.git/MERGE_MSG",
+		"/Users/aurelia/.gitconfig",
+		"/Users/aurelia/Code/2013/pirateplotr/data/sample_data.csv",
+		"/Users/aurelia/Desktop/grid-test/index-fav.html",
+		"/Users/aurelia/Desktop/grid-test/data.json",
+		"/Users/aurelia/Code/2012/ttdet/DataViz/app/index.html",
+		"/Users/aurelia/Downloads/BillParser.py",
+		"/Users/aurelia/Desktop/sample2.txt",
+		"/Users/aurelia/Code/2013/gdi-main-site/app/models/chapter.rb",
+		"/Users/aurelia/bash_profile",
+		"/Users/aurelia/Downloads/README.txt",
+		"/Users/aurelia/Downloads/ikok/ienjoy.py",
+		"/Users/aurelia/Code/2013/gdi-main-site/README.md"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gif",
+			"micro",
+			"Zoom",
+			"title",
+			"data",
+			"point",
+			"reports",
+			"date",
+			"].",
+			"1",
+			"reports",
+			".(),",
+			"getTime",
+			"datetime",
+			"seriesOptions",
+			"data",
+			"name",
+			"tooltip",
+			"post",
+			"seriesOptions",
+			"posts",
+			"container",
+			".data",
+			"bar-name",
+			".data",
+			"bar-name",
+			"tooltip",
+			"tidyData",
+			"render",
+			"csv",
+			"date",
+			"parse",
+			"date",
+			"last",
+			"xScale",
+			"today",
+			"milestone",
+			"today",
+			"milestone",
+			"text",
+			"today",
+			"milestone",
+			"todaymarker",
+			"today",
+			"milestone",
+			"today",
+			"milestone",
+			"button",
+			"hr",
+			"450",
+			"\"+450\"",
+			"+450",
+			"legendElementWidth",
+			".append(\"title\").text(function(d) { return d.value; });",
+			"TRAC",
+			"result array",
+			"var data",
+			"data",
+			"tirelineLabel",
+			"gridSize",
+			"legendElementWidth",
+			"brandLabel",
+			"legend",
+			"tread",
+			"day",
+			"g",
+			"hour",
+			"rect.",
+			"tsv",
+			"treadline",
+			"value"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_layouts/season02.html",
+					"settings":
+					{
+						"buffer_size": 942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								103
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "_layouts/season03.html",
+					"settings":
+					{
+						"buffer_size": 929,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								541,
+								541
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_layouts/season01.html",
+					"settings":
+					{
+						"buffer_size": 2196,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1994,
+								1994
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 14.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/season03.css",
+					"settings":
+					{
+						"buffer_size": 35,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35,
+								35
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/season02.css",
+					"settings":
+					{
+						"buffer_size": 1411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"seascss",
+				"css/season01.css"
+			],
+			[
+				"same",
+				"data/sample_data.csv"
+			],
+			[
+				".js",
+				"plotr.js"
+			],
+			[
+				"sampl",
+				"data/sample_data.csv"
+			],
+			[
+				"magi",
+				"public/javascripts/magic.js"
+			],
+			[
+				"brind",
+				"app/views/brands/index.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true
+}
