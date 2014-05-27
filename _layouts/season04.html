@@ -5,9 +5,10 @@ layout: default
 
 <div class="container-fluid">
   <div class="row-fluid">
+
 		{% unless page.hide_header %}
 			<header class="post-header">
-				<h1>{{ page.title }}</h1>
+				<marquee><h2>{{ page.title }}</h2></marquee>
 				<p class="date">{{ page.date | date: site.date_format }}</p>
 			</header>
 		{% endunless %}
@@ -19,12 +20,22 @@ layout: default
 					Your browser does not support the <code>audio</code> element.
 				</audio>
 		{% endif %}
+		<div class="alert alert-block">
+	        <a class="close">×</a>
+          <img class="pull-left" style="margin-top: -8px" src="{{ site.base_url }}/img/s01/drudgesiren.gif" width="60">
+	        <h4 class="alert-heading">Alert</h4>
+	        <p>Warning, this is the current season! Expect awesome adds and epic changes!</p>
+	  </div>
+	  <img class "pull-left" style="margin-top: -8px" src="{{ site.base_url }}/img/s01/construct.gif">
+	  <br>
+	  <br>
 
 		<p>
 			{% unless page.hide_header %}
-					<a href="{{ site.baseurl }}/season04">Season four</a>
+				<a class="btn btn-primary" href="{{ site.baseurl }}/season04">Season four</a>
 			{% endunless %}
-			<a href="{{ site.base_url }}/">Home</a>
+			<a class="btn btn-warning" href="{{ site.base_url }}/">Home</a>
 		</p>
+
 	</div>
 </div>
