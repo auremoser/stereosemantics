@@ -20,11 +20,13 @@ layout: nil
 	Host + Dev: aurelia (aka dj moonjelly)
 	Dates: genesis ---> present
 	Contact: auremoser [at] gmail [dot] com
+	Site: algorhyth.ms
 	Twitter: auremoser
 	Location: New York, USA
 
 	Cohost + Dev: julian (aka dj aubergene)
 	Dates: 09/13 ---> present
+	Site: aubergene.com
 	Contact: aubergene [at] gmail [dot] com
 	Twitter: aubergene
 	Location: New York, USA
