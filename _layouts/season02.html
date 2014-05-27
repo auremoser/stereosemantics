@@ -14,6 +14,30 @@ layout: default
 
 {{ content }}
 
+{% unless page.hide_header %}
+	<p>
+		<a href="{{ page.rel_finder_url }}" class="rel-finder">Rel:Finder Map</a>
+		<a href="{{ page.tracklist_url }}" class="tracklist">Tracklist</a>
+	</p>
+
+	{% if page.mp3_url %}
+	<audio class="audio-player" src="{{ page.mp3_url }}" controls>
+		Your browser does not support the <code>audio</code> element.
+	</audio>
+	{% else %}
+		Sorry audio for this episode isn't available :(
+	{% endif %}
+
+
+	<div class="record-spinner">
+		<div class="title">
+			{{ page.title }}
+		</div>
+	</div>
+
+{% endunless %}
+
+
 <p class="season-home-links">
 	{% unless page.hide_header %}
 			<a href="{{ site.baseurl }}/season02">Season two</a>
