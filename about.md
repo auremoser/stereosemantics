@@ -10,5 +10,5 @@ Stereo Semantics is a radio show based on the semantic web, and that 70s show [C
 This is the base Jekyll theme; we added some weirdness because we are weird++. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
 ###About Us
-Aurelia is a librarian and developer in Brooklyn. Aubergene is a developer in NYC. You can read more about us in [humans.txt](www.stereosemantics.com/humans.txt) (remember the [robots.txt](www.stereosemantics.com/robots.txt) too ;).
+Aurelia is a librarian and developer in Brooklyn. Aubergene is a developer in NYC. You can read more about us in [humans.txt](http://www.stereosemantics.com/humans.txt) (remember the [robots.txt](http://www.stereosemantics.com/robots.txt) too ;).
 
