@@ -6230,7 +6230,7 @@ blink {
 
 body {
   -webkit-font-smoothing: none;
-  background: #0000ff url('img/microfab.gif') top left;
+  background: #0000ff url('../img/s01/microfab.gif') top left;
 }
 
 .navbar {
@@ -6241,7 +6241,7 @@ body {
 }
 
 .navbar-inner {
-  background: #000000 url('../img/stars.gif') top left;
+  background: #000000 url('../img/s01/stars.gif') top left;
   border-bottom: 1px solid #D4D0C8;
 }
 
@@ -6250,7 +6250,7 @@ body {
 }
 
 .btn-primary {
-  background: #000000 url('../img/rainbow.gif') top left;
+  background: #000000 url('../img/s01/rainbow.gif') top left;
 }
 
 legend {
@@ -6259,7 +6259,7 @@ legend {
 }
 
 .control-group.error input {
-  background: #000000 url('../img/flames.gif') 0 -30px repeat-x;
+  background: #000000 url('../img/s01/flames.gif') 0 -30px repeat-x;
 }
 
 .dropdown-menu {
