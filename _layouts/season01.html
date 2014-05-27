@@ -45,7 +45,7 @@ layout: default
       {{ content }}
 
       {% if page.episode %}
-      <p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+      <p class="meta">{{ page.date | date: site.date_format }}</p>
       <a href="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' | reverse | truncate: 2 | reverse }}.png">
         <img class="rel-finder-map" src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' | reverse | truncate: 2 | reverse   }}.png">
       </a>
@@ -54,9 +54,18 @@ layout: default
 
     <br>
 
-    <img src="{{ site/baseurl }}/img/s01/counter2.gif">
-    <img src="{{ site/baseurl }}/img/s01/noframes.gif">
-    <img src="{{ site/baseurl }}/img/s01/netscape.gif">
+    <p>
+      {% unless page.hide_header %}
+          <a href="{{ site.baseurl }}/season01">Season one</a>
+      {% endunless %}
+      <a href="{{ site.base_url }}/">Home</a>
+    </p>
+
+
+    <img src="{{ site.base_url }}/img/s01/counter2.gif">
+    <img src="{{ site.base_url }}/img/s01/noframes.gif">
+    <img src="{{ site.base_url }}/img/s01/netscape.gif">
+
   </div>
 </div>
 

@@ -2,17 +2,25 @@
 layout: default
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/css/season03.css">
-<script type="text/javascript" src="{{ site.baseurl }}/js/vendor/jquery-2.1.0.min.js"></script>
 
 {% unless page.hide_header %}
 	<header class="post-header">
 		<h1>{{ page.title }}</h1>
-
-		<p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-
-		<a href="{{ site.baseurl }}/season03">Season 3</a>
+		<p class="date">{{ page.date | date: site.date_format }}</p>
 	</header>
 {% endunless %}
 
 {{ content }}
 
+{% if page.audio_url %}
+		<audio class="audio-player" src="{{ page.audio_url }}" controls>
+			Your browser does not support the <code>audio</code> element.
+		</audio>
+{% endif %}
+
+<p>
+	{% unless page.hide_header %}
+			<a href="{{ site.baseurl }}/season03">Season three</a>
+	{% endunless %}
+	<a href="{{ site.base_url }}/">Home</a>
+</p>

@@ -10,4 +10,4 @@ timezone: America/New_York
 markdown: kramdown
 permalink: pretty
 
-date_format: "%b %d, %Y"
+date_format: "%b %d %Y"

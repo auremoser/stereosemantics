@@ -1,16 +1,17 @@
 ---
 layout: season04
-title: Stereo Semantics - Season 4
+title: Stereo Semantics - Season four
 hide_header: true
 ---
 
-<h1>Season 4</h1>
+<h1>Season four</h1>
 
-{% for post in site.categories.season04 %}
-	<a class="record-spinner" href="{{ post.url }}">
-		<div class="title">
-			{{ post.title }}
-		</div>
-	</a>
+<ol>
+{% for post in site.categories.season04 reversed %}
+	<li>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		- {{ post.date | date: site.date_format }}
+	</li>
 {% endfor %}
+</ol>
 
