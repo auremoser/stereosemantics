@@ -6,7 +6,7 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<title>CSV Soundsystem sitemap</title>
+				<title>Stereo Semantics sitemap</title>
 				<meta charset="utf-8"/>
 				<style type="text/css">
 					body {
