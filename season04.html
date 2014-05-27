@@ -1,0 +1,16 @@
+---
+layout: season04
+title: Stereo Semantics - Season 4
+hide_header: true
+---
+
+<h1>Season 4</h1>
+
+{% for post in site.categories.season04 %}
+	<a class="record-spinner" href="{{ post.url }}">
+		<div class="title">
+			{{ post.title }}
+		</div>
+	</a>
+{% endfor %}
+

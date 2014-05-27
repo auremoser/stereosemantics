@@ -1,11 +1,15 @@
 ---
 layout: season03
 title: Stereo Semantics - Season 3
+hide_header: true
 ---
+
+<h1>Stereo Semantics - Season three</h1>
 
 {% for post in site.categories.season03 %}
 	<a class="record-spinner" href="{{ post.url }}">
 		<div class="title">
+			<span class="post-date">{{ post.date | date: site.date_format }}</span>
 			{{ post.title }}
 		</div>
 	</a>

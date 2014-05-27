@@ -9,3 +9,5 @@ timezone: America/New_York
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+date_format: "%b %d, %Y"

@@ -2,35 +2,17 @@
 layout: default
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/css/season03.css">
-<link rel="shortcut-icon" href="{{ site.baseurl }}/favicon.ico">
 <script type="text/javascript" src="{{ site.baseurl }}/js/vendor/jquery-2.1.0.min.js"></script>
 
-<header class="post-header">
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+{% unless page.hide_header %}
+	<header class="post-header">
+		<h1>{{ page.title }}</h1>
 
-<a href="{{ site.baseurl }}/season03">Season 3</a>
-</header>
+		<p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+
+		<a href="{{ site.baseurl }}/season03">Season 3</a>
+	</header>
+{% endunless %}
 
 {{ content }}
 
-
-
-<script type="text/javascript">
-	$('.record-spinner').on({
-		mouseenter: function() {
-			$(this).addClass('selected')
-		},
-		mouseleave: function() {
-			$(this).removeClass('selected')
-		}
-	})
-
-	$('.record-spinner .title').each(function() {
-		var offset = -(Math.random()*12)+'s'
-		$(this).css({
-			'-webkit-animation-delay': offset,
-			'-moz-animation-delay': offset
-		})
-	})
-</script>
