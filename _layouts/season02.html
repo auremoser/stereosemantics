@@ -6,16 +6,15 @@ layout: default
 
 {% unless page.hide_header %}
 	<header class="post-header">
-	<h1>{{ page.title }}</h1>
-	<p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		<h1>{{ page.title }}</h1>
 
-	<a href="{{ site.baseurl }}/season02">Season 2</a>
+		<p class="date">{{ page.date | date: site.date_format }}</p>
 	</header>
 {% endunless %}
 
 {{ content }}
 
-<p>
+<p class="season-home-links">
 	{% unless page.hide_header %}
 			<a href="{{ site.baseurl }}/season02">Season two</a>
 	{% endunless %}

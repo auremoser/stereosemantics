@@ -8,6 +8,12 @@ layout: default
   {% for post in site.posts %}
     <li>
       <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+
+      {{ post.episode | prepend: 'hello' | reverse }}
+      <!--
+      {{ post.episode | prepend: '0' | reverse | truncate: 2 | reverse }}
+       -->
+
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
   {% endfor %}

@@ -6,17 +6,20 @@ hide_header: true
 
 <h1>{{ page.title }}</h1>
 
-{% for post in site.categories.season02 %}
-<div>
-	<a  href="{{ post.url }}">
+<div class="episode-links">
+
+{% for post in site.categories.season02 reversed %}
+	<a class="episode-link" href="{{ post.url }}">
 		<div class="record-spinner">
 			<div class="title">
 				{{ post.title }}
 			</div>
 		</div>
-		{{ post.title }} - {{ post.episode }}
+		<div class="episode-link-text">
+			{{ post.episode }}: {{ post.title }}
+		</div>
 	</a>
-</div>
 {% endfor %}
-<br clear="left">
+
+</div>
 
