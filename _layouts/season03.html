@@ -3,24 +3,36 @@ layout: default
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/css/season03.css">
 
-{% unless page.hide_header %}
-	<header class="post-header">
-		<h1>{{ page.title }}</h1>
-		<p class="date">{{ page.date | date: site.date_format }}</p>
-	</header>
-{% endunless %}
+<div class="container-fluid">
+  <div class="row-fluid">
 
-{{ content }}
+		{% unless page.hide_header %}
+			<header class="post-header">
+				<h2><blink>{{ page.title }}</blink></h2><img src="{{ site.base_url }}/img/s03/new2.gif">
+				<p class="date">{{ page.date | date: site.date_format }}</p>
+			</header>
+		{% endunless %}
 
-{% if page.audio_url %}
-		<audio class="audio-player" src="{{ page.audio_url }}" controls>
-			Your browser does not support the <code>audio</code> element.
-		</audio>
-{% endif %}
+		{{ content }}
 
-<p>
-	{% unless page.hide_header %}
-			<a href="{{ site.baseurl }}/season03">Season three</a>
-	{% endunless %}
-	<a href="{{ site.base_url }}/">Home</a>
-</p>
+		{% if page.audio_url %}
+				<audio class="audio-player" src="{{ page.audio_url }}" controls>
+					Your browser does not support the <code>audio</code> element.
+				</audio>
+		{% endif %}
+
+		<hr>
+
+		<p>
+			{% unless page.hide_header %}
+					<a class="btn" href="{{ site.baseurl }}/season03">Season three</a>
+			{% endunless %}
+			<a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
+		</p>
+
+		<img src="{{ site.base_url }}/img/s03/geocities.jpg">
+    <img src="{{ site.base_url }}/img/s03/notepad.gif">
+
+	</div>
+</div>
+

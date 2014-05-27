@@ -3,24 +3,28 @@ layout: default
 ---
 <link rel="stylesheet" href="{{ site.baseurl }}/css/season04.css">
 
-{% unless page.hide_header %}
-	<header class="post-header">
-		<h1>{{ page.title }}</h1>
-		<p class="date">{{ page.date | date: site.date_format }}</p>
-	</header>
-{% endunless %}
+<div class="container-fluid">
+  <div class="row-fluid">
+		{% unless page.hide_header %}
+			<header class="post-header">
+				<h1>{{ page.title }}</h1>
+				<p class="date">{{ page.date | date: site.date_format }}</p>
+			</header>
+		{% endunless %}
 
-{{ content }}
+		{{ content }}
 
-{% if page.audio_url %}
-		<audio class="audio-player" src="{{ page.audio_url }}" controls>
-			Your browser does not support the <code>audio</code> element.
-		</audio>
-{% endif %}
+		{% if page.audio_url %}
+				<audio class="audio-player" src="{{ page.audio_url }}" controls>
+					Your browser does not support the <code>audio</code> element.
+				</audio>
+		{% endif %}
 
-<p>
-	{% unless page.hide_header %}
-			<a href="{{ site.baseurl }}/season04">Season four</a>
-	{% endunless %}
-	<a href="{{ site.base_url }}/">Home</a>
-</p>
+		<p>
+			{% unless page.hide_header %}
+					<a href="{{ site.baseurl }}/season04">Season four</a>
+			{% endunless %}
+			<a href="{{ site.base_url }}/">Home</a>
+		</p>
+	</div>
+</div>

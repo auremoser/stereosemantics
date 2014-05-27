@@ -1,5 +1,25 @@
 .rel-finder-map {
   width: 250px;
+  display: block;
+  float: right;
+  position: relative;
+  top: -2em;
+}
+
+.episode {
+  background-image: url('../img/s01/stars.gif');
+  border: 3px solid #ff0;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.episode .title {
+  font-size: 22px;
+}
+
+.ep-num {
+  display: block;
+  font-size: 2vmin;
 }
 
 /*!

@@ -41,24 +41,25 @@ layout: default
         <span class="ep-num">Episode {{ page.episode }}</span>
         {% endif %}
       </div>
+      <div class="episode">
+        {{ content }}
+      </div>
 
-      {{ content }}
-
-      {% if page.episode %}
-      <p class="meta">{{ page.date | date: site.date_format }}</p>
-      <a href="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' | reverse | truncate: 2 | reverse }}.png">
-        <img class="rel-finder-map" src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' | reverse | truncate: 2 | reverse   }}.png">
-      </a>
-      {% endif %}
+        {% if page.episode %}
+        <p class="meta">{{ page.date | date: site.date_format }}</p>
+        <a href="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' |   reverse | truncate: 2 | reverse }}.png">
+          <img class="rel-finder-map" src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page. episode | prepend: '0' | reverse | truncate: 2 | reverse   }}.png">
+        </a>
+        {% endif %}
     </div>
 
     <br>
 
     <p>
       {% unless page.hide_header %}
-          <a href="{{ site.baseurl }}/season01">Season one</a>
+          <a class="btn btn-info" href="{{ site.baseurl }}/season01">Season one</a>
       {% endunless %}
-      <a href="{{ site.base_url }}/">Home</a>
+      <a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
     </p>
 
 
