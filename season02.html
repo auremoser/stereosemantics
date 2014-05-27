@@ -1,12 +1,22 @@
 ---
+title: Stereo Semantics - Season two
 layout: season02
+hide_header: true
 ---
 
+<h1>{{ page.title }}</h1>
+
 {% for post in site.categories.season02 %}
-	<a class="record-spinner" href="{{ post.url }}">
-		<div class="title">
-			{{ post.title }}
+<div>
+	<a  href="{{ post.url }}">
+		<div class="record-spinner">
+			<div class="title">
+				{{ post.title }}
+			</div>
 		</div>
+		{{ post.title }} - {{ post.episode }}
 	</a>
+</div>
 {% endfor %}
+<br clear="left">
 
