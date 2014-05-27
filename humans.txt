@@ -1,0 +1,44 @@
+---
+layout: nil
+---
+#     ___  ____  ____  ____  ____  _____
+#    / __)(_  _)( ___)(  _ \( ___)(  _  )
+#    \__ \  )(   )__)  )   / )__) ( (_) )
+#    (___/ (__) (____)(_)\_)(____)(_____)
+#     ___  ____  __  __    __    _  _  ____  ____   ___  ___
+#    / __)( ___)(  \/  )  /__\  ( \( )(_  _)(_  _) / __)/ __)
+#    \__ \ )__)  )    (  /(__)\  )  (   )(   _)(_ ( (__ \__ \
+#    (___/(____)(_/\/\_)(__)(__)(_)\_) (__) (____) \___)(___/
+#
+#
+#    Oh hullo there humans! Thank you for visiting our page :)
+#
+#
+#
+/* HUMANS */
+
+	Host + Dev: aurelia (aka dj moonjelly)
+	Dates: genesis ---> present
+	Contact: auremoser [at] gmail [dot] com
+	Twitter: auremoser
+	Location: New York, USA
+
+	Cohost + Dev: julian (aka dj aubergene)
+	Dates: 09/13 ---> present
+	Contact: aubergene [at] gmail [dot] com
+	Twitter: aubergene
+	Location: New York, USA
+
+/* THANKS */
+   # big ups!
+	Divshot
+	RelFinder
+	Google Docs
+	Musicians we feature
+
+
+/* SITE */
+	Last update:2014/06/30
+	Standards: HTML5, CSS3
+	Components: Geo for Bootstrap, jQuery, Jekyll/Liquid
+	Software: Sublime Text, SourceTree, Jekyll, Github (gh-pages)
