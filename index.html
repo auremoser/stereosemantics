@@ -1,32 +1,87 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="{{ site.baseurl }}/css/season01.css">
 
-<h1>Stereo Semantics!</h1>
+<!--
+Who reads HTML comments anyway‽
+ -->
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+<div class="container-fluid">
+  <div class="row-fluid">
 
-      {{ post.episode | prepend: 'hello' | reverse }}
-      <!--
-      {{ post.episode | prepend: '0' | reverse | truncate: 2 | reverse }}
-       -->
+    <a href="{{ site.baseurl }}/">
+      <h1>
+        <font color="ff00ff">S</font><font color="ff00cc">t</font><font color="ff0099">e</font><font color="ff0066">r</font><font color="ff0033">e</font><font color="ff0000">o</font> <font color="ff3300">S</font><font color="ff6600">e</font><font color="ff9900">m</font><font color="ffcc00">a</font><font color="ffff00">n</font><font color="ccff00">t</font><font color="99ff00">i</font><font color="66ff00">c</font><font color="33ff00">s</font><blink><font color="33ff00">‽</font></blink>
+      </h1>
+    </a>
 
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+    <p>Fall 2012</p>
+
+    <p>Listen here <a href="http://radio.pratt.edu">http://radio.pratt.edu</a> <img src="{{ site.baseurl }}/img/s01/hot.gif"></p>
+
+    <p>Call in here <tel>(718) 636-3436</tel></p>
+
+    <p>When: Sundays, 9-10pm EST</p>
+
+    <img src="{{ site.baseurl }}/img/s01/construction.gif">
+
+    <br>
+
+    <div class="episode-detail">
+      <div class="title">
+        <h1>{{ page.title }}</h1>
+        {% if page.episode %}
+        <span class="ep-num">Episode {{ page.episode }}</span>
+        {% endif %}
+      </div>
+
+      <div class="episode">
+
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <span class="post-date">{{ post.date | date: "%b %d, %Y" }}</span>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
 
 
-<h2>Previous seasons</h2>
+        <h2>Previous seasons</h2>
 
-{% for category in site.categories %}
-  <a href="{{ category.first }}">{{ category.first | replace: 'n0','n ' | capitalize }}</a>
-{% endfor %}
+        {% for category in site.categories %}
+          <a href="{{ category.first }}">{{ category.first | replace: 'n0','n ' | capitalize }}</a>
+        {% endfor %}
 
-<h2>RSS!</h2>
+        <h2>RSS!</h2>
 
-<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+
+
+
+      </div>
+
+        {% if page.episode %}
+        <p class="meta">{{ page.date | date: site.date_format }}</p>
+        <a href="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' |   reverse | truncate: 2 | reverse }}.png">
+          <img class="rel-finder-map" src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page. episode | prepend: '0' | reverse | truncate: 2 | reverse   }}.png">
+        </a>
+        {% endif %}
+    </div>
+
+    <br>
+
+    <p>
+      <a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
+    </p>
+
+
+    <img src="{{ site.base_url }}/img/s01/counter2.gif">
+    <img src="{{ site.base_url }}/img/s01/noframes.gif">
+    <img src="{{ site.base_url }}/img/s01/netscape.gif">
+
+  </div>
+</div>
 
