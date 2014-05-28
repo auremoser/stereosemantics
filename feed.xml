@@ -1,13 +1,32 @@
 ---
 layout: none
+summary: "Long tantalizing description of podcast to go here"
+subtitle: site.description
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
+    <description>{{ page.summary | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
+
+    <itunes:summary>{{ page.summary | xml_escape }}</itunes:summary>
+    <itunes:subtitle>{{ page.subtitle }}</itunes:subtitle>
+    <itunes:category text="Arts &amp; Entertainment">
+        <itunes:category text="Entertainment"/>
+    </itunes:category>
+    <itunes:author>Stereo Semantics</itunes:author>
+    <itunes:owner>
+        <itunes:email>webmaster@stereosemantics.com</itunes:email>
+    </itunes:owner>
+    <itunes:image>
+        <url>{{ "/img/logo.png" | prepend: site.baseurl | prepend: site.url }}</url>
+        <title>Stereo Semantics logo</title>
+        <link>{{ site.baseurl | prepend: site.url }}</link>
+    </itunes:image>
+    <itunes:link rel="image" type="video/jpeg" href="{{ "/img/logo.png" | prepend: site.baseurl | prepend: site.url }}">- Stereo Semantics</itunes:link>
+
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
@@ -15,7 +34,18 @@ layout: none
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+
+        <enclosure url="{{ post.mp3_url }}" length="1157907" type="audio/mpeg"></enclosure>
+        <!--
+        <itunes:category text="Technology">
+            <itunes:category text="Information Technology"/>
+        </itunes:category>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:duration></itunes:duration>
+        <itunes:keywords></itunes:keywords>
+         -->
       </item>
     {% endfor %}
+
   </channel>
 </rss>
