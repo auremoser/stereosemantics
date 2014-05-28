@@ -17,6 +17,7 @@ subtitle: site.description
         <itunes:category text="Entertainment"/>
     </itunes:category>
     <itunes:author>Stereo Semantics</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
         <itunes:email>webmaster@stereosemantics.com</itunes:email>
     </itunes:owner>
@@ -27,24 +28,26 @@ subtitle: site.description
     </itunes:image>
     <itunes:link rel="image" type="video/jpeg" href="{{ "/img/logo.png" | prepend: site.baseurl | prepend: site.url }}">- Stereo Semantics</itunes:link>
 
-    {% for post in site.posts limit:10 %}
-      <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+    {% for post in site.posts %}
+      {% if post.mp3_url %}
+        <item>
+          <title>{{ post.title | xml_escape }}</title>
+          <description>{{ post.content | xml_escape }}</description>
+          <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+          <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
+          <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
 
-        <enclosure url="{{ post.mp3_url }}" length="1157907" type="audio/mpeg"></enclosure>
-        <!--
-        <itunes:category text="Technology">
-            <itunes:category text="Information Technology"/>
-        </itunes:category>
-        <itunes:explicit>no</itunes:explicit>
-        <itunes:duration></itunes:duration>
-        <itunes:keywords></itunes:keywords>
-         -->
-      </item>
+          <enclosure url="{{ post.mp3_url }}" type="audio/mpeg"></enclosure>
+          <itunes:explicit>no</itunes:explicit>
+          <!--
+          <itunes:category text="Technology">
+              <itunes:category text="Information Technology"/>
+          </itunes:category>
+          <itunes:duration></itunes:duration>
+          <itunes:keywords></itunes:keywords>
+           -->
+        </item>
+      {% endif %}
     {% endfor %}
 
   </channel>
