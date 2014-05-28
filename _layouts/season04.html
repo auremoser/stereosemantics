@@ -15,20 +15,27 @@ layout: default
 
 		{{ content }}
 
+		{% unless page.hide_header %}
+			<p>
+				<a href="{{ page.rel_finder_url }}">Rel:Finder Map</a>
+				<a href="{{ page.track_list_url }}">Tracklist</a>
+			</p>
+		{% endunless %}
+
 		{% if page.audio_url %}
 				<audio class="audio-player" src="{{ page.audio_url }}" controls>
 					Your browser does not support the <code>audio</code> element.
 				</audio>
 		{% endif %}
 		<div class="alert alert-block">
-	        <a class="close">×</a>
-          <img class="pull-left" style="margin-top: -8px" src="{{ site.base_url }}/img/s01/drudgesiren.gif" width="60">
-	        <h4 class="alert-heading">Alert</h4>
-	        <p>Warning, this is the current season! Expect awesome adds and epic changes!</p>
-	  </div>
-	  <img class "pull-left" style="margin-top: -8px" src="{{ site.base_url }}/img/s01/construct.gif">
-	  <br>
-	  <br>
+			<a class="close">×</a>
+			<img class="pull-left" style="margin-top: -8px" src="{{ site.base_url }}/img/s01/drudgesiren.gif" width="60">
+			<h4 class="alert-heading">Alert</h4>
+			<p>Warning, this is the current season! Expect awesome adds and epic changes!</p>
+		</div>
+		<img class "pull-left" style="margin-top: -8px" src="{{ site.base_url }}/img/s01/construct.gif">
+		<br>
+		<br>
 
 		<p>
 			{% unless page.hide_header %}
