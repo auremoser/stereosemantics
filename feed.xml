@@ -4,7 +4,7 @@ summary: "Long tantalizing description of podcast to go here"
 subtitle: site.description
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <description>{{ page.summary | xml_escape }}</description>
@@ -30,8 +30,9 @@ subtitle: site.description
           <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
           <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
           <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
-          <enclosure url="{{ post.mp3_url }}" type="audio/mpeg"></enclosure>
+          <enclosure url="{{ post.mp3_url }}" length="{{ post.length }}" type="audio/mpeg"></enclosure>
           <itunes:explicit>no</itunes:explicit>
+          <itunes:duration>{{ post.duration }}</itunes:duration>
         </item>
       {% endif %}
     {% endfor %}
