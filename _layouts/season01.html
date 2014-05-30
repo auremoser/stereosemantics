@@ -39,7 +39,7 @@ layout: default
         {% if page.episode %}
         <p class="meta">{{ page.date | date: site.date_format }}</p>
         <a href="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' |   reverse | truncate: 2 | reverse }}.png">
-          <img class="rel-finder-map" src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page. episode | prepend: '0' | reverse | truncate: 2 | reverse   }}.png">
+          <img class="rel-finder-map" src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' | reverse | truncate: 2 | reverse }}.png">
         </a>
         {% endif %}
     </div>
