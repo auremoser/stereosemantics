@@ -22,10 +22,12 @@ layout: default
 			</p>
 		{% endunless %}
 
-		{% if page.audio_url %}
-				<audio class="audio-player" src="{{ page.audio_url }}" controls>
-					Your browser does not support the <code>audio</code> element.
-				</audio>
+		{% if page.mp3_url %}
+			<audio class="audio-player" src="{{ page.mp3_url }}" controls>
+				Your browser does not support the <code>audio</code> element.
+			</audio>
+			{% else %}
+				Sorry audio for this episode isn't available :(
 		{% endif %}
 		<div class="alert alert-block">
 			<a class="close">×</a>
