@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<h2>Episodes</h2>
+
+<table border="1">
+  <tr>
+    <th>Season</th>
+    <th>Episode</th>
+    <th>Date</th>
+    <th>Title</th>
+    <th>MP3</th>
+  </tr>
+  {% for post in site.posts %}
+    <tr>
+      <td>{{ post.categories }}</td>
+      <td>{{ post.episode }}</td>
+      <td>{{ post.date | date: "%b %d, %Y" }}</td>
+      <td>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </td>
+      <td>{{ post.mp3_url }}</td>
+    </tr>
+  {% endfor %}
+</table>
+
+
