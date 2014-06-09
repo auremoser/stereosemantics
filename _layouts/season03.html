@@ -29,9 +29,14 @@ layout: default
 				{% else %}
 					Sorry audio for this episode isn't available :(
 				{% endif %}
+
 			{% endif %}
 
 			<hr>
+			<br>
+				<a href="{{ site.baseurl }}/img/s03/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
+						<img class="rel-finder-map" src="{{ site.baseurl }}/img/s03/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
+				</a>
 
 			<p>
 			{% if page.episode %}
