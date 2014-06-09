@@ -55,9 +55,9 @@ layout: default
       <br>
 
       <p>
-        {% unless page.hide_header %}
+        {% if page.episode %}
             <a class="btn btn-info" href="{{ site.baseurl }}/season01">Season one</a>
-        {% endunless %}
+        {% endif %}
         <a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
       </p>
 

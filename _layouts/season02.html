@@ -5,17 +5,17 @@ layout: default
 	<script type="text/javascript" src="{{ site.baseurl }}/js/vendor/jquery-2.1.0.min.js"></script>
 </head>
 <body>
-	{% unless page.hide_header %}
+	{% if page.episode %}
 		<header class="post-header">
 			<h1>{{ page.title }}</h1>
 
 			<p class="date">{{ page.date | date: site.date_format }}</p>
 		</header>
-	{% endunless %}
+	{% endif %}
 
 	{{ content }}
 
-	{% unless page.hide_header %}
+	{% if page.episode %}
 		<p>
 			<a href="{{ page.rel_finder_url }}" class="rel-finder">Rel:Finder Map</a>
 			<a href="{{ page.tracklist_url }}" class="tracklist">Tracklist</a>
@@ -36,13 +36,13 @@ layout: default
 			</div>
 		</div>
 
-	{% endunless %}
+	{% endif %}
 
 
 	<p class="season-home-links">
-		{% unless page.hide_header %}
+		{% if page.episode %}
 				<a href="{{ site.baseurl }}/season02">Season two</a>
-		{% endunless %}
+		{% endif %}
 		<a href="{{ site.base_url }}/">Home</a>
 	</p>
 
