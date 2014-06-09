@@ -15,7 +15,7 @@ layout: default
   {% for post in site.posts %}
     <tr>
       <td>{{ post.categories }}</td>
-      <td>{{ post.episode }}</td>
+      <td>{{ post.episode | plus: 100 | replace_first: '1', '' }}</td>
       <td>{{ post.date | date: "%b %d, %Y" }}</td>
       <td>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
