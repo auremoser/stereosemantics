@@ -1,46 +1,47 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="{{ site.baseurl }}/css/season01.css">
+	<link rel="stylesheet" href="{{ site.baseurl }}/css/season01.css">
+</head>
+<body>
+	<div class="container-fluid">
+	  <div class="row-fluid">
 
-<div class="container-fluid">
-  <div class="row-fluid">
+			{% unless page.hide_header %}
+				<header class="post-header">
+					<h2><blink>{{ page.title }}</blink></h2><img src="{{ site.base_url }}/img/s01/new2.gif">
+					<p class="date">{{ page.date | date: site.date_format }}</p>
+				</header>
+			{% endunless %}
 
-		{% unless page.hide_header %}
-			<header class="post-header">
-				<h2><blink>{{ page.title }}</blink></h2><img src="{{ site.base_url }}/img/s01/new2.gif">
-				<p class="date">{{ page.date | date: site.date_format }}</p>
-			</header>
-		{% endunless %}
+			{{ content }}
+			{% unless page.hide_header %}
+				<p>
+					<a href="{{ page.rel_finder_url }}" class="rel-finder">Rel:Finder Map</a>
+					<a href="{{ page.tracklist_url }}" class="tracklist">Tracklist</a>
+				</p>
 
-		{{ content }}
-		{% unless page.hide_header %}
+				{% if page.mp3_url %}
+				<audio class="audio-player" src="{{ page.mp3_url }}" controls>
+					Your browser does not support the <code>audio</code> element.
+				</audio>
+				{% else %}
+					Sorry audio for this episode isn't available :(
+				{% endif %}
+			{% endunless %}
+
+			<hr>
+
 			<p>
-				<a href="{{ page.rel_finder_url }}" class="rel-finder">Rel:Finder Map</a>
-				<a href="{{ page.tracklist_url }}" class="tracklist">Tracklist</a>
+			{% unless page.hide_header %}
+				<a class="btn" href="{{ site.baseurl }}/season03">Season three</a>
+			{% endunless %}
+				<a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
 			</p>
 
-			{% if page.mp3_url %}
-			<audio class="audio-player" src="{{ page.mp3_url }}" controls>
-				Your browser does not support the <code>audio</code> element.
-			</audio>
-			{% else %}
-				Sorry audio for this episode isn't available :(
-			{% endif %}
-		{% endunless %}
+		<img src="{{ site.base_url }}/img/s01/geocities.jpg">
+		<img src="{{ site.base_url }}/img/s01/notepad.gif">
 
-		<hr>
-
-		<p>
-		{% unless page.hide_header %}
-			<a class="btn" href="{{ site.baseurl }}/season03">Season three</a>
-		{% endunless %}
-			<a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
-		</p>
-
-	<img src="{{ site.base_url }}/img/s01/geocities.jpg">
-	<img src="{{ site.base_url }}/img/s01/notepad.gif">
-
+		</div>
 	</div>
-</div>
-
+</body>

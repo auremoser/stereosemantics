@@ -1,70 +1,71 @@
 ---
 layout: default
 ---
-<link rel="stylesheet" href="{{ "/css/season01.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/season01.css" | prepend: site.baseurl }}">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row-fluid">
 
-<div class="container-fluid">
-  <div class="row-fluid">
+      <a href="{{ site.baseurl }}/">
+        <h1>
+          <font color="ff00ff">S</font><font color="ff00cc">t</font><font color="ff0099">e</font><font color="ff0066">r</font><font color="ff0033">e</font><font color="ff0000">o</font> <font color="ff3300">S</font><font color="ff6600">e</font><font color="ff9900">m</font><font color="ffcc00">a</font><font color="ffff00">n</font><font color="ccff00">t</font><font color="99ff00">i</font><font color="66ff00">c</font><font color="33ff00">s</font>
+  -       <blink>Season One</blink>
+        </h1>
+      </a>
 
-    <a href="{{ site.baseurl }}/">
-      <h1>
-        <font color="ff00ff">S</font><font color="ff00cc">t</font><font color="ff0099">e</font><font color="ff0066">r</font><font color="ff0033">e</font><font color="ff0000">o</font> <font color="ff3300">S</font><font color="ff6600">e</font><font color="ff9900">m</font><font color="ffcc00">a</font><font color="ffff00">n</font><font color="ccff00">t</font><font color="99ff00">i</font><font color="66ff00">c</font><font color="33ff00">s</font>
--       <blink>Season One</blink>
-      </h1>
-    </a>
+      <p>Fall 2012</p>
 
-    <p>Fall 2012</p>
+      <p>Listen here <a href="http://radio.pratt.edu">http://radio.pratt.edu</a> <img src="{{ site.baseurl }}/img/s01/hot.gif"></p>
 
-    <p>Listen here <a href="http://radio.pratt.edu">http://radio.pratt.edu</a> <img src="{{ site.baseurl }}/img/s01/hot.gif"></p>
+      <p>Call in here <tel>(718) 636-3436</tel></p>
 
-    <p>Call in here <tel>(718) 636-3436</tel></p>
+      <p>When: Sundays, 9-10pm EST</p>
 
-    <p>When: Sundays, 9-10pm EST</p>
+      <img src="{{ site.baseurl }}/img/s01/construction.gif">
 
-    <img src="{{ site.baseurl }}/img/s01/construction.gif">
+      <br>
 
-    <br>
+      <div class="episode-detail">
+        <div class="title">
+          <h1>{{ page.title }}</h1>
+          {% if page.episode %}
+          <span class="ep-num">Episode {{ page.episode }}</span>
+          {% endif %}
+        </div>
+        <div class="episode">
+          {{ content }}
+        </div>
 
-    <div class="episode-detail">
-      <div class="title">
-        <h1>{{ page.title }}</h1>
-        {% if page.episode %}
-        <span class="ep-num">Episode {{ page.episode }}</span>
-        {% endif %}
+          {% if page.episode %}
+          {% if page.mp3_url %}
+            <audio class="audio-player" src="{{ page.mp3_url }}" controls>
+              Your browser does not support the <code>audio</code> element.
+            </audio>
+            {% else %}
+              Sorry audio for this episode isn't available :(
+          {% endif %}
+          <p class="meta">{{ page.date | date: site.date_format }}</p>
+          <a href="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' |   reverse | truncate: 2 | reverse }}.png">
+            <img class="rel-finder-map" src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' | reverse | truncate: 2 | reverse }}.png">
+          </a>
+          {% endif %}
       </div>
-      <div class="episode">
-        {{ content }}
-      </div>
 
-        {% if page.episode %}
-        {% if page.mp3_url %}
-          <audio class="audio-player" src="{{ page.mp3_url }}" controls>
-            Your browser does not support the <code>audio</code> element.
-          </audio>
-          {% else %}
-            Sorry audio for this episode isn't available :(
-        {% endif %}
-        <p class="meta">{{ page.date | date: site.date_format }}</p>
-        <a href="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' |   reverse | truncate: 2 | reverse }}.png">
-          <img class="rel-finder-map" src="{{ site.baseurl }}/img/s01/rel-finder/ep{{ page.episode | prepend: '0' | reverse | truncate: 2 | reverse }}.png">
-        </a>
-        {% endif %}
+      <br>
+
+      <p>
+        {% unless page.hide_header %}
+            <a class="btn btn-info" href="{{ site.baseurl }}/season01">Season one</a>
+        {% endunless %}
+        <a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
+      </p>
+
+
+      <img src="{{ site.base_url }}/img/s01/counter2.gif">
+      <img src="{{ site.base_url }}/img/s01/noframes.gif">
+      <img src="{{ site.base_url }}/img/s01/netscape.gif">
+
     </div>
-
-    <br>
-
-    <p>
-      {% unless page.hide_header %}
-          <a class="btn btn-info" href="{{ site.baseurl }}/season01">Season one</a>
-      {% endunless %}
-      <a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
-    </p>
-
-
-    <img src="{{ site.base_url }}/img/s01/counter2.gif">
-    <img src="{{ site.base_url }}/img/s01/noframes.gif">
-    <img src="{{ site.base_url }}/img/s01/netscape.gif">
-
   </div>
-</div>
-
+</body>
