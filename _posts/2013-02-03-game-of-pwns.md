@@ -4,7 +4,7 @@ title: Game of PWNS
 episode: 1
 categories: season02
 rel_finder_url: http://tinyurl.com/ob4naga
-track_list_url: https://docs.google.com/spreadsheet/ccc?key=0AuDay9KcwU4YdHFBUWkyZUJkdGQtWUtUMnBRdXFFTGc#gid=11
+tracklist_url: https://docs.google.com/spreadsheet/ccc?key=0AuDay9KcwU4YdHFBUWkyZUJkdGQtWUtUMnBRdXFFTGc#gid=11
 mp3_url: http://auremmoser.files.wordpress.com/2013/02/2-3.mp3
 duration: '01:07:33'
 length: 64854572
