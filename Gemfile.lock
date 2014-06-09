@@ -81,6 +81,7 @@ GEM
       ffi (>= 0.5.0)
     rdiscount (2.1.7)
     redcarpet (2.3.0)
+    ruby-mp3info (0.8.4)
     safe_yaml (1.0.3)
     thread_safe (0.3.3)
     toml (0.1.1)
@@ -94,3 +95,4 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  ruby-mp3info
