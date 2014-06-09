@@ -1,0 +1,5 @@
+{% if page.rel_finder_url %}
+	<a href="{{ page.rel_finder_url }}">
+		<img class="rel-finder-map" src="{{ site.baseurl }}/img/{{ page.categories.first | replace_first: 'season', 's' }}/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
+	</a>
+{% endif %}
