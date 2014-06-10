@@ -50,9 +50,7 @@ Who reads HTML comments anyway‽
 
         <h2>Seasons</h2>
 
-        {% for category in site.categories %}
-          <a href="{{ category.first }}">{{ category.first | replace: 'n0','n ' | capitalize }}</a>
-        {% endfor %}
+        {% include seasons-list.html %}
 
         <h2>RSS!</h2>
 

@@ -7,14 +7,8 @@ permalink: /about/
 Stereo Semantics is a radio show based on the semantic web, and that 70s show [Connections](https://en.wikipedia.org/wiki/Connections_(TV_series)). It\'s a show about the relationships between songs and artists, and the general interconnectedness of creative work. Each episode starts with a song, ends with its cover, and plays songs that connect the two, based on a theme. The episode title and description explains the theme, embedded mp3s archive the show, and linked tracklists and RelFinder Maps help you understand the relationships.
 
 Check out the seasons here:
-<br>
-<a class="btn" href="{{ site.base_url }}/season01/">Season 1</a>
-<br>
-<a class="btn" href="{{ site.base_url }}/season02/">Season 2</a>
-<br>
-<a class="btn" href="{{ site.base_url }}/season03/">Season 3</a>
-<br>
-<a class="btn" href="{{ site.base_url }}/season04/">Season 4</a>
+
+{% include seasons-list.html %}
 
 
 ###This Site

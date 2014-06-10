@@ -1,0 +1,7 @@
+<ul class="seasons-list">
+	{% for category in site.categories %}
+		<li>
+			<a href="{{ site.baseurl }}/{{ category.first }}/">{{ category.first | replace: 'n0','n ' | capitalize }}</a>
+		</li>
+	{% endfor %}
+</ul>
