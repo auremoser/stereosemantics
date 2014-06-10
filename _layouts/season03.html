@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-	<link rel="stylesheet" href="{{ site.baseurl }}/css/season01.css">
+	<link rel="stylesheet" href="{{ "/css/season01.css" | prepend: site.baseurl }}">
 </head>
 <body>
 	<div class="container-fluid">
@@ -34,9 +34,11 @@ layout: default
 
 			<hr>
 			<br>
+			{% if page.episode %}
 				<a href="{{ site.baseurl }}/img/s03/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
 						<img class="rel-finder-map" src="{{ site.baseurl }}/img/s03/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
 				</a>
+			{% endif %}
 
 			<p>
 			{% if page.episode %}
@@ -47,6 +49,10 @@ layout: default
 
 		<img src="{{ site.base_url }}/img/s01/geocities.jpg">
 		<img src="{{ site.base_url }}/img/s01/notepad.gif">
+		<br>
+		<br>
+		<img src="{{ site.base_url }}/img/s03/ipod42.gif">
+
 
 		</div>
 	</div>
