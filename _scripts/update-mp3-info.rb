@@ -4,6 +4,8 @@ require "yaml"
 
 files = Dir.glob(__dir__ + "/../_posts/*")
 
+logo = open(File.join(__dir__, 'logo.png'),'rb').read
+
 files.each do |file|
   puts file
 
@@ -29,6 +31,7 @@ files.each do |file|
     mp3.tag.artist = "Stereo Semantics"
     mp3.tag.tracknum = data["episode"].to_i
     mp3.tag.album = "Season #{data["categories"][/\d+/].to_i}"
+    mp3.tag2.add_picture(logo)
   end
 
   # p data
