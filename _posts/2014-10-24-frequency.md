@@ -1,6 +1,6 @@
 ---
-layout: season05
-title: Waiting
+layout: season04
+title: Frequency
 episode: 5
 date: 2014-10-24
 categories: season05
