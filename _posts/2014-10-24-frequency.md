@@ -1,5 +1,5 @@
 ---
-layout: season04
+layout: season05
 title: Frequency
 episode: 5
 date: 2014-10-24
