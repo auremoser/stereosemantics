@@ -1,12 +1,12 @@
 ---
 layout: season05
 title: Frequency
-episode: 5
+episode: 3
 date: 2014-10-24
 categories: season05
 mp3_url: https://dl-web.dropbox.com/get/MUSIC/radio/Nicecast%20Archived%20Audio%2020141017%202344.mp3?_subject_uid=7743283&w=AACo0WSkzcfnkb-yVXH7RiOMNkJg_kyWFMYtC7cSdT2gOA
 rel_finder_url: http://tinyurl.com/mt4wsw7
-tracklist_url: https://docs.google.com/spreadsheet/ccc?key=0AuDay9KcwU4YdHFBUWkyZUJkdGQtWUtUMnBRdXFFTGc&usp=drive_web#gid=46
+tracklist_url:
 duration: '00:18:22'
 length:
 ---
