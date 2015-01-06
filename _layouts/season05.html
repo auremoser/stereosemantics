@@ -1,0 +1,55 @@
+---
+layout: default
+---
+	<link rel="stylesheet" href="{{ "/css/season01.css" | prepend: site.baseurl }}">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row-fluid">
+
+			{% if page.episode %}
+				<header class="post-header">
+					<h2><blink>{{ page.title }}</blink></h2><img src="{{ site.base_url }}/img/s01/new2.gif">
+					<p class="date">{{ page.date | date: site.date_format }}</p>
+				</header>
+			{% endif %}
+
+			{{ content }}
+
+			{% if page.episode %}
+				<p>
+					<a href="{{ page.rel_finder_url }}" class="rel-finder">Rel:Finder Map</a>
+					<a href="{{ page.tracklist_url }}" class="tracklist">Tracklist</a>
+				</p>
+
+				{% if page.mp3_url %}
+				<audio class="audio-player" src="{{ page.mp3_url }}" controls>
+					Your browser does not support the <code>audio</code> element.
+				</audio>
+				{% else %}
+					Sorry audio for this episode isn't available :(
+				{% endif %}
+
+			{% endif %}
+
+			<hr>
+			<br>
+			{% if page.episode %}
+				<a href="{{ site.baseurl }}/img/s05/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
+						<img class="rel-finder-map" src="{{ site.baseurl }}/img/s05/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
+				</a>
+			{% endif %}
+
+			<p>
+			{% if page.episode %}
+				<a class="btn btn-info" href="{{ site.baseurl }}/season03">Season five</a>
+			{% endif %}
+				<a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
+			</p>
+
+		<img src="{{ site.base_url }}/img/s01/geocities.jpg">
+		<img src="{{ site.base_url }}/img/s01/notepad.gif">
+
+		</div>
+	</div>
+</body>
