@@ -5,7 +5,7 @@ episode: 9
 date: 2015-02-03
 categories: season05
 mp3_url: https://auremmoser.files.wordpress.com/2015/04/stereosemanthics-episode-09.mp3
-rel_finder_url: http://tinyurl.com/lpep3lp
+rel_finder_url: http://tinyurl.com/kjyfr3p
 tracklist_url: https://docs.google.com/spreadsheets/d/1AnBPTKYgbRICVfnWy8lh2XAfNTw8cQFm6TVHdbUXQa0/edit#gid=1135304021
 duration: '01:12:00'
 length:

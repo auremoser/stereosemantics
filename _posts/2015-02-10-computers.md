@@ -5,7 +5,7 @@ episode: 10
 date: 2015-02-10
 categories: season05
 mp3_url: https://auremmoser.files.wordpress.com/2015/01/stereo-15-1-27.mp3
-rel_finder_url: http://tinyurl.com/lpep3lp
+rel_finder_url: http://tinyurl.com/lcwu7ua
 tracklist_url: https://docs.google.com/spreadsheets/d/1AnBPTKYgbRICVfnWy8lh2XAfNTw8cQFm6TVHdbUXQa0/edit#gid=1788596701
 duration: '01:08:27'
 length:
