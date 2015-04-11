@@ -1,6 +1,6 @@
 ---
 layout: season05
-title: Constellation
+title: Constellations
 episode: 9
 date: 2015-02-03
 categories: season05
