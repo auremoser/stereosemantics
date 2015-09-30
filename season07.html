@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-	<link rel="stylesheet" href="{{ "/css/season01.css" | prepend: site.baseurl }}">
+	<link rel="stylesheet" href="{{ "/css/season06.css" | prepend: site.baseurl }}">
 </head>
 <body>
 	<div class="container-fluid">
@@ -9,7 +9,7 @@ layout: default
 
 			{% if page.episode %}
 				<header class="post-header">
-					<h2><blink>{{ page.title }}</blink></h2><img src="{{ site.base_url }}/img/s01/new2.gif">
+					<h3><blink>{{ page.title }}</blink></h3>
 					<p class="date">{{ page.date | date: site.date_format }}</p>
 				</header>
 			{% endif %}
@@ -31,20 +31,26 @@ layout: default
 					Sorry audio for this episode isn't available :(
 				{% endif %}
 
-				<a href="{{ site.baseurl }}/img/s05/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
-						<img class="rel-finder-map" src="{{ site.baseurl }}/img/s05/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
+				<a href="{{ site.baseurl }}/img/s06/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
+						<img class="rel-finder-map" src="{{ site.baseurl }}/img/s06/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
 				</a>
 			{% endif %}
 
 			<p>
 			{% if page.episode %}
-				<a class="btn btn-warning" href="{{ site.baseurl }}/season05">Season five</a>
+				<a class="btn btn-info" href="{{ site.baseurl }}/season06">Season six</a>
 			{% endif %}
-				<a class="btn btn-warning" href="{{ site.base_url }}/">Home</a>
+				<a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
 			</p>
 
-		<img src="{{ site.base_url }}/img/s05/rainbow-brite.gif">
+		<img src="{{ site.base_url }}/img/s05/ipod46.gif">
+		<img src="{{ site.base_url }}/img/s05/madewmac.gif">
 
 		</div>
 	</div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/season06.js"></script>
 </body>
+
+</html>
