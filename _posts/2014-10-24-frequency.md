@@ -4,7 +4,7 @@ title: Frequency
 episode: 3
 date: 2014-10-24
 categories: season05
-mp3_url: https://dl-web.dropbox.com/get/MUSIC/radio/Nicecast%20Archived%20Audio%2020141017%202344.mp3?_subject_uid=7743283&w=AACo0WSkzcfnkb-yVXH7RiOMNkJg_kyWFMYtC7cSdT2gOA
+mp3_url: 
 rel_finder_url: http://tinyurl.com/mt4wsw7
 tracklist_url:
 duration: '00:18:22'
