@@ -4,53 +4,22 @@ layout: default
 	<link rel="stylesheet" href="{{ "/css/season06.css" | prepend: site.baseurl }}">
 </head>
 <body>
-	<div class="container-fluid">
-		<div class="row-fluid">
+	{% include header-pc.html %}
+<!-- CONTENT -->
+	<blink><h3>{{ site.title }} - {{ page.title }}</h3></blink>
+<img src="{{ site.baseurl }}/img/s05/new2.gif">
+<br>
 
-			{% if page.episode %}
-				<header class="post-header">
-					<h3><blink>{{ page.title }}</blink></h3>
-					<p class="date">{{ page.date | date: site.date_format }}</p>
-				</header>
-			{% endif %}
-
-			{{ content }}
-
-			{% if page.episode %}
-				<p>
-					<a href="{{ page.rel_finder_url }}" class="rel-finder">Rel:Finder Map</a>
-					<br>
-					<a href="{{ page.tracklist_url }}" class="tracklist">Tracklist</a>
-				</p>
-
-				{% if page.mp3_url %}
-				<audio class="audio-player" src="{{ page.mp3_url }}" controls>
-					Your browser does not support the <code>audio</code> element.
-				</audio>
-				{% else %}
-					Sorry audio for this episode isn't available :(
-				{% endif %}
-
-				<a href="{{ site.baseurl }}/img/s06/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
-						<img class="rel-finder-map" src="{{ site.baseurl }}/img/s06/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
-				</a>
-			{% endif %}
-
-			<p>
-			{% if page.episode %}
-				<a class="btn btn-info" href="{{ site.baseurl }}/season06">Season six</a>
-			{% endif %}
-				<a class="btn btn-primary" href="{{ site.base_url }}/">Home</a>
-			</p>
-
-		<img src="{{ site.base_url }}/img/s05/ipod46.gif">
-		<img src="{{ site.base_url }}/img/s05/madewmac.gif">
-
-		</div>
-	</div>
-
+<ol>
+{% for post in site.categories.season07 reversed %}
+	<li>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+		- {{ post.date | date: site.date_format }}
+	</li>
+{% endfor %}
+</ol>
     <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/season06.js"></script>
+    <script src="/js/season07.js"></script>
 </body>
 
 </html>
