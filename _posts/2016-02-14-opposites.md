@@ -1,12 +1,12 @@
 ---
 layout: season07
 title: Opposites attract
-episode: 6
+episode: 1
 date: 2016-02-14
 categories: season07
-mp3_url: https://auremmoser.files.wordpress.com/2015/12/11-22-2015.mp3
-rel_finder_url: 
-tracklist_url: 
+mp3_url: hhttps://auremmoser.files.wordpress.com/2016/02/2-14-15.mp3
+rel_finder_url: http://tinyurl.com/j658j5f
+tracklist_url: https://docs.google.com/spreadsheets/d/1AnBPTKYgbRICVfnWy8lh2XAfNTw8cQFm6TVHdbUXQa0/edit#gid=1850086299
 duration: '00:56:25'
 length:
 ---
