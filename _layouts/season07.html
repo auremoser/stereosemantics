@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-	<link rel="stylesheet" href="{{ "/css/season06.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/season07.css" | prepend: site.baseurl }}">
 </head>
 <body>
   {% include header-pc.html %}
@@ -32,11 +32,13 @@ layout: default
         {% else %}
           Sorry audio for this episode isn't available :(
         {% endif %}
-
+        <br/>
         <a href="{{ site.baseurl }}/img/s05/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
-            <img class="rel-finder-map" src="{{ site.baseurl }}/img/s05/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
+            <img class="rel-finder-map" style="height:60%;" src="{{ site.baseurl }}/img/s05/rel-finder/ep{{ page.episode | plus: 100 | replace_first: '1', '' }}.png">
         </a>
       {% endif %}
+      <br/>
+      <br/>
 
       <p>
       {% if page.episode %}
@@ -45,7 +47,7 @@ layout: default
         <a class="btn btn-warning" href="{{ site.base_url }}/">Home</a>
       </p>
 
-    <img src="{{ site.base_url }}/img/s06/rainbow-brite.gif">
+
 
     </div>
   </div>
