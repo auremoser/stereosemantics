@@ -24,12 +24,16 @@ layout: nil
 	Twitter: auremoser
 	Location: New York, USA
 
+	Dev + QA tester + Magia: goliatone
+	Dates: 09/12 ---> present
+	Twitter: @goliatone
+	Location: Internetz
+
 	Cohost + Dev: julian (aka dj aubergene)
-	Dates: 09/13 ---> present
+	Dates: 09/13 ---> 09/14
 	Site: aubergene.com
-	Contact: aubergene [at] gmail [dot] com
 	Twitter: aubergene
-	Location: New York, USA
+	Location: UK
 
 /* THANKS */
    # big ups!
@@ -40,7 +44,7 @@ layout: nil
 
 
 /* SITE */
-	Last update:2014/06/30
+	Last update:2016/03/28
 	Standards: HTML5, CSS3
 	Components: Geo for Bootstrap, jQuery, Jekyll/Liquid
 	Software: Sublime Text, SourceTree, Jekyll, Github (gh-pages)
