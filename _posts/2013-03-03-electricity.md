@@ -5,7 +5,7 @@ date: 2013-03-03
 episode: 5
 categories: season02
 rel_finder_url: http://tinyurl.com/luzjsht
-tracklist_url: https://docs.google.com/spreadsheet/ccc?key=0AuDay9KcwU4YdHFBUWkyZUJkdGQtWUtUMnBRdXFFTGc#gid=15
+tracklist_url: https://docs.google.com/spreadsheets/d/16Wt4Fq3e2mMJ3cuv7RzLBnIbtC8Dz3_Jaru6sql-Gxs/edit?ts=5787e9db#gid=15
 mp3_url: http://auremmoser.files.wordpress.com/2013/02/3-3.mp3
 duration: '01:05:50'
 length: 63209491
