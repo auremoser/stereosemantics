@@ -37,6 +37,12 @@ layout: default
 				</div>
 
 				{% if page.episode %}
+					<p>
+						<a href="{{ page.tracklist_url }}" class="tracklist">Tracklist</a>
+					</p>
+				{% endif %}
+
+				{% if page.episode %}
 					{% if page.mp3_url %}
 						<audio class="audio-player" src="{{ page.mp3_url }}" controls>
 							Your browser does not support the <code>audio</code> element.
